@@ -46,6 +46,13 @@ header nav a {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  header nav a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
 /* Hero */
 .hero {
   text-align: center;
@@ -117,6 +124,7 @@ input, select, textarea {
   border: 1px solid #555;
   background-color: #333;
   color: #eee;
+  box-sizing: border-box;
 }
 textarea {
   height: 100px;

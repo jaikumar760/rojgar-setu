@@ -4,7 +4,7 @@ export default function Contact({ formspreeUrl }) {
   return (
     <section id="contact" className="section">
       <h2>Contact Us</h2>
-      <form action={formspreeUrl} method="POST" style={{ display: "flex", flexDirection: "column", gap: 15, maxWidth: 500, margin: "auto" }}>
+      <form action={formspreeUrl} method="POST" style={{ display: "flex", flexDirection: "column", gap: 15, maxWidth: 500, margin: "auto", width: "100%" }}>
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required />
