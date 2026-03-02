@@ -9,6 +9,17 @@
 🔹 **Frontend:** [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
 🔹 **Backend API:** [https://rojgar-setu-o045.onrender.com](https://rojgar-setu-o045.onrender.com)
 
+### 🔑 Demo Credentials
+
+To test the application, use these credentials:
+
+```
+Email: demo@rojgarsetu.com
+Password: Demo@2026
+```
+
+> **Note:** You can also register a new account to explore all features.
+
 ---
 
 ## ✨ Features

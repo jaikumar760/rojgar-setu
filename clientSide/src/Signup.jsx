@@ -53,7 +53,8 @@ function Signup() {
                             autoComplete="off"
                             name="email"
                             className="form-control rounded-0"
-
+                            pattern="^\S+@\S+\.\S+$"
+                            title="Please enter a valid email address"
                             onChange={(e) => setEmail(e.target.value)} 
                             //done by me
                         />

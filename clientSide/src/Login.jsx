@@ -36,6 +36,8 @@ function Login() {
             placeholder="Email"
             className="form-control mb-3"
             onChange={(e) => setEmail(e.target.value)}
+            pattern="^\S+@\S+\.\S+$"
+            title="Please enter a valid email address"
             required
           />
 
