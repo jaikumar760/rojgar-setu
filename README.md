@@ -6,7 +6,7 @@ It simplifies the hiring process by allowing users to **search, and apply** base
 ## 🌐 Live Deployment
 
 🔹 **Frontend (Vercel):**  
-https://your-vercel-url.vercel.app
+https://rojgar-setu-murex.vercel.app
 
 🔹 **Backend (Render):**  
 https://rojgar-setu-o045.onrender.com
