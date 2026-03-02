@@ -14,7 +14,7 @@
 To test the application, use these credentials:
 
 ```
-Email: demo@rojgarsetu.com
+Email: demo@123gmail.com
 Password: demo@2026
 ```
 
