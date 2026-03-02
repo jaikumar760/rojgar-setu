@@ -50,23 +50,64 @@
 
 ```
 Rojgar-Setu-main/
-├── clientSide/          # Frontend React app
-│   ├── src/
-│   │   ├── components/  # Reusable components
-│   │   ├── App.jsx      # Main app component
-│   │   ├── Login.jsx    # Login page
-│   │   ├── Signup.jsx   # Registration page
-│   │   ├── Book.jsx     # Booking page
-│   │   └── Home.jsx     # Home page
-│   └── package.json
 │
-├── server/              # Backend Node.js app
-│   ├── models/          # MongoDB schemas
-│   ├── middleware/      # Auth middleware
-│   ├── index.js         # Server entry point
-│   └── package.json
+├── clientSide/                    # Frontend Application
+│   ├── public/                    # Static assets
+│   │   ├── images/                # Image files
+│   │   │   ├── img.jpg
+│   │   │   ├── new.jpg
+│   │   │   ├── xtm.png
+│   │   │   └── xtm1.jpeg
+│   │   └── vite.svg
+│   │
+│   ├── src/                       # Source files
+│   │   ├── components/            # Reusable React components
+│   │   │   ├── About.jsx          # About section
+│   │   │   ├── Contact.jsx        # Contact form
+│   │   │   ├── Footer.jsx         # Footer component
+│   │   │   ├── Header.jsx         # Navigation header
+│   │   │   ├── Hero.jsx           # Hero section
+│   │   │   ├── ModalForm.jsx      # Booking modal
+│   │   │   ├── Privacy.jsx        # Privacy policy
+│   │   │   ├── Services.jsx       # Services grid
+│   │   │   └── Terms.jsx          # Terms & conditions
+│   │   │
+│   │   ├── assets/                # Static assets
+│   │   │   └── react.svg
+│   │   │
+│   │   ├── App.jsx                # Main app component with routing
+│   │   ├── Book.jsx               # Service booking page
+│   │   ├── Home.jsx               # Landing page
+│   │   ├── Login.jsx              # User login page
+│   │   ├── Signup.jsx             # User registration page
+│   │   ├── Home.css               # Global styles
+│   │   └── main.jsx               # React entry point
+│   │
+│   ├── .env                       # Environment variables (VITE_API_URL)
+│   ├── .gitignore                 # Git ignore rules
+│   ├── eslint.config.js           # ESLint configuration
+│   ├── index.html                 # HTML template
+│   ├── package.json               # Frontend dependencies
+│   ├── package-lock.json          # Locked dependencies
+│   ├── vercel.json                # Vercel deployment config
+│   └── vite.config.js             # Vite configuration
 │
-└── README.md
+├── server/                        # Backend Application
+│   ├── middleware/                # Custom middleware
+│   │   └── authMiddleware.js      # JWT token verification
+│   │
+│   ├── models/                    # MongoDB schemas
+│   │   ├── Booking.js             # Booking model
+│   │   └── userModel.js           # User model
+│   │
+│   ├── .env                       # Environment variables (PORT, MONGO_URI, JWT_SECRET)
+│   ├── .gitignore                 # Git ignore rules
+│   ├── index.js                   # Express server & API routes
+│   ├── package.json               # Backend dependencies
+│   └── package-lock.json          # Locked dependencies
+│
+├── .gitignore                     # Root git ignore
+└── README.md                      # Project documentation
 ```
 
 ---
